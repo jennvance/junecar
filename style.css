@@ -1,0 +1,40 @@
+.jcarousel {
+	position: relative;
+	overflow: hidden;
+	/*Set width to define how many items are visible*/
+	width: 300px;
+}
+
+.jcarousel ul {
+	/*Width must be big enough to contain all items*/
+	width: 2000px;
+	/*Position MUST be either relative or absolute*/
+	position: relative;
+	list-style: none;
+}
+
+/*Item elements*/
+/*Jcarousel works best if these have a set width and height, though it's not required*/
+.jcarousel li {
+	/*Float is required only for block elements like <li>'s*/
+	float: left;
+	width: 100px;
+/*	margin-left: 5px;
+	margin-right: 5px;*/
+}
+
+.jcarousel-pagination li.jenn {
+/*	width: 20px;
+	height: 20px;*/
+	float: left;
+	font-size: 50px;
+}
+
+.jcarousel-pagination a {
+/*	width: 20px;
+	height: 20px;*/
+}
+
+.active {
+	color: blue;
+}
